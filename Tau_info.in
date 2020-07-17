@@ -12,7 +12,7 @@ PhiSigmaOffset 1.
 EnergyScaleOffset 1.
 EnergySigmaOffset 1.
 
-MatchToGen 1
+MatchToGen 0
 GenMatchingDeltaR 0.1
 
 TauSF 0
@@ -46,8 +46,8 @@ DoDiscrByIsolation true
 DiscrByMinIsolation 64
 DiscrByMaxIsolation 2
 FlipIsolationRequirement false
-DiscrByProngType false
-ProngType  1or3hps
+DiscrByProngType true
+ProngType  1hps
 decayModeFindingNewDMs true
 decayModeFinding false
 
@@ -60,7 +60,7 @@ SelectTausThatAreElectrons false
 DoDiscrAgainstMuon true
 // MVA: 1 = Loose, 2 = Tight
 // DeepTau: 1 = VLoose, 2 = Loose, 4 = Medium, 8 = Tight
-DiscrAgainstMuon 2
+DiscrAgainstMuon 8
 SelectTausThatAreMuons false
 
 DoDiscrByCrackCut false
